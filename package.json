@@ -1,10 +1,14 @@
 {
-  "name": "feed-generator",
-  "version": "1.0.0",
-  "description": "atproto feed generator starter kit",
+  "name": "bsky-feed-generator",
+  "version": "0.1.0",
+  "description": "atproto feed generator with tweaks",
   "main": "index.js",
-  "repository": "git@github.com:bluesky-social/feed-generator.git",
-  "author": "dholms <dtholmgren@gmail.com>",
+  "repository": "https://github.com/daveio/bsky-feed-generator.git",
+  "author": {
+    "name": "Dave Williams",
+    "email": "dave@dave.io",
+    "url": "https://dave.io"
+  },
   "license": "MIT",
   "scripts": {
     "publishFeed": "ts-node scripts/publishFeedGen.ts",
@@ -34,7 +38,7 @@
     "typescript": "^5.7.2"
   },
   "engines": {
-    "node": "20.5.1",
-    "pnpm": "9.15.0"
+    "node": "~20.5.1",
+    "pnpm": "~9.15.0"
   }
 }
